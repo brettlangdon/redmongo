@@ -1,0 +1,22 @@
+{
+  "author": "Brett Langdon <brett@blangdon.com> (http://www.brett.is/)",
+  "name": "redmongo",
+  "description": "MongoDB Client with Redis Cache",
+  "version": "0.1.0",
+  "homepage": "http://www.github.com/brettlangdon/redmongo",
+  "repository": {
+    "url": "git://github.com/brettlangdon/redmongo.git"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "mongodb": ">=1.1.0",
+    "redis": ">=0.8.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {
+    "hiredis": ">=0.1.0"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
